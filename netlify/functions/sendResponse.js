@@ -3,6 +3,7 @@ const fetch = require('isomorphic-fetch');
 let previousResponse = null;
 
 function generateMockResponse() {
+    //const randomNumber = Math.floor(Math.random() * 20);
     const randomNumber = Math.floor(Math.random() * 20);
     return `There are ${randomNumber} iPhones out of stock`;
 }
