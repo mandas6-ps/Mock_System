@@ -8,7 +8,7 @@ function generateMockResponse() {
 }
 
 async function triggerNetlifyWebhook() {
-    const NETLIFY_WEBHOOK_URL = 'YOUR_NETLIFY_WEBHOOK_URL';
+    const NETLIFY_WEBHOOK_URL = 'https://api.netlify.com/build_hooks/652f6baf9936d9596329aa6b';
     try {
         const response = await fetch(NETLIFY_WEBHOOK_URL, {
             method: 'POST',
