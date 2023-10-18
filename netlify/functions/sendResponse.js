@@ -4,7 +4,7 @@ let previousResponse = null;
 
 function generateMockResponse() {
     //const randomNumber = Math.floor(Math.random() * 20);
-    const randomNumber = Math.floor(Math.random() * 20);
+    const randomNumber = 5;
     return `There are ${randomNumber} iPhones out of stock`;
 }
 
